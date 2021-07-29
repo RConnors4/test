@@ -1,0 +1,164 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif, sans-serif-light;
+}
+
+h2 {
+	margin-bottom: 0.5em;
+}
+
+p {
+	font-family: sans-serif-light;
+	font-size: 1.05em;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.wrapper .sidenav {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 20vw;
+	height: 100vh;
+	background: #ffffff;
+}
+
+.wrapper .sidenav h1 img {
+	color: #000000;
+	line-height: 3em;
+	margin: 3rem 3rem 0 3rem;
+	width: 60%;
+}
+
+.wrapper .sidenav ul li {
+	list-style: none;
+	padding: 0.3em;
+	margin: 0 0 0 3rem;
+}
+
+.wrapper .sidenav .sidenav-top {
+	margin-top: 2rem;
+}
+
+.wrapper .sidenav .sidenav-top ul li a.static-link {
+	color: #000000;
+}
+
+.wrapper .sidenav .sidenav-bottom {
+	margin-top: 2rem;
+}
+
+.wrapper .sidenav .sidenav-bottom ul li a.static-link {
+	color: #000000;
+}
+
+.wrapper .sidenav .sidenav-bottom ul li a.active-link {
+	color: #858585;
+}
+
+.wrapper .sidenav .sidenav-bottom ul li a.active-link:hover {
+	color: #000000;
+}
+
+.wrapper .sidenav .social-media {
+	margin-top: 1rem;
+	margin-left: 3rem;
+	font-size: 1.3rem;
+}
+
+.wrapper .sidenav .social-media a {
+	margin-right: 0.7rem;
+	color: #000000;
+}
+
+.wrapper .sidenav .social-media i:hover {
+	transition: 0.8s;
+	transform: rotate(360deg);
+}
+
+.wrapper .main-content {
+	width: 62vw;
+	margin-left: 20vw;
+	margin-top: 3rem;
+}
+
+.wrapper .main-content p {
+	color: #858585;
+}
+
+.split {
+	display: flex;
+	flex-direection: row;
+}
+
+.split > * {
+	flex-basis: 100%;
+}
+
+.split > * + * {
+	margin-left: 2em;
+}
+
+.wrapper .main-content .map-responsive {
+	height: 50vh;
+	width: 100%;
+	padding-top: 2rem;
+}
+
+.wrapper .main-content .map-responsive iframe {
+	height: 70vh;
+	width: 100%;
+}
+
+.row {
+	display: flex;
+}
+
+.column {
+	flex: 50%;
+}
+
+.column-right {
+	margin-left: 2em;
+}
+
+.wrapper .main-content .contact {
+	margin-left: 15%;
+}
+
+.wrapper .main-content .contact form .form-name {
+	padding-bottom: 1em;
+}
+
+.wrapper .main-content .contact form .form-name .form-lastName {
+	margin-left: 1em;
+}
+
+.wrapper .main-content .contact form .form-subject {
+	padding-bottom: 1em;
+}
+
+.wrapper .main-content .contact form .form-email {
+	padding-bottom: 1em;
+}
+
+.wrapper .main-content .contact form .form-message {
+	padding-bottom: 1em;
+}
+
+
